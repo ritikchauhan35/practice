@@ -1,0 +1,244 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 h2 h3 h4 h5 h6{
+    color: #4D4D4D;
+}
+a{
+    text-decoration: none;
+}
+header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Montserrat;
+
+}
+main{
+    font-family: Montserrat;
+}
+nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-size: 20px;
+}
+.nav-bar button{
+    padding: 10px 25px;
+    background-color: #66BB69;
+    color: white;
+    border-style: none;
+}
+.hero-section{
+    display: flex;
+    padding: 20px;
+    justify-content:space-between ;
+    margin-top: 30px;
+}
+.hero-text h1{
+    font-size: 50px;
+    color: #4D4D4D;
+}
+.hero-text span h1{
+    color: #66BB69;
+}
+.hero-text button{
+    margin-top: 90px;
+    padding: 10px 25px;
+    background-color: #66BB69;
+    color: white;
+    border-style: none;
+}
+.hero-radio_buttons{
+    display: flex;
+    justify-self: center;
+    gap: 10px;
+}
+.our-client{
+    display: grid;
+    justify-content: center;
+    margin:50px;
+    gap: 30px;
+}
+.client-text h3{
+    justify-self: center;
+    font-size: 30px;
+    color: #4D4D4D;
+}
+.client-text p{
+    justify-self: center;
+}
+.clients-logos{
+    display: flex;
+    gap: 100px;
+}
+.services{
+    padding:40px;
+}
+.services-text{
+    display: grid;
+    justify-self: center;
+}
+.services-text h4{
+    justify-self: center;
+    font-size: 30px;
+    color: #4D4D4D;
+}
+.services-text p{
+    justify-self: center;
+    margin-top: 10px;
+}
+.services-images{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.services-images img{
+    justify-self: center;
+}
+.services-images h4{
+    justify-self: center;
+}
+.services_cards{
+    display: grid;
+    justify-items: center;
+    padding: 20px;
+}
+.services_cards h4{
+    font-size: 20px;
+    color: #4D4D4D;
+}
+.blog{
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+}
+.blog-text{
+    width: 50%;
+    align-content: center;
+}
+.blog-text h4{
+    justify-self: center;
+    font-size: 30px;
+    color: #4D4D4D;
+}
+.blog-text button{
+    margin-top: 50px;
+    padding: 10px 25px;
+    background-color: #66BB69;
+    color: white;
+    border-style: none;
+}
+.stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin:0px 90px;
+}
+.stats-text h4{
+    justify-self: center;
+    font-size: 30px;
+    color: #4D4D4D;
+}
+.stats-text span h4{
+    color:#66BB69 ;
+}
+.stat-no{
+    font-size: 20px;
+}
+.testimonial_card{
+    display: flex;
+    padding: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.testimonial-text {
+    max-width: 70%;
+}
+.testimonial-text h5{
+    font-size: 20px;
+    color: #66BB69;
+    margin-top: 20px;
+}
+.testimonial-logos{
+    display: flex;
+    gap: 50px;
+}
+.testimonial-logos a{
+    color: #43A046;
+}
+.blog2{
+    display: grid;
+    padding: 40px;
+}
+.blog2 h3{
+    justify-self: center;
+    font-size: 40px;
+    color: #4D4D4D;
+}
+.blog2 p{
+    justify-self: center;
+}
+.updates-cards {
+    padding: 60px 20px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .update-card {
+    width: 360px;
+    position: relative;
+    text-align: center;
+  }
+
+  .update-card .card-image {
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  .update-card .card-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .update-card .card-body {
+    background: #F5F7FA;
+    border-radius: 12px;
+    padding: 20px 24px 32px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    position: absolute;
+    left: 0; right: 0;
+    top: 180px;       
+    margin: 0 auto;
+  }
+  .update-card .card-body h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #333333;
+    margin-bottom: 12px;
+  }
+  .update-card .card-body a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #28A745;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .update-card .card-body a:hover {
+    color: #1E7E34;
+  }
+footer{
+    display: flex;
+    justify-self: center;
+    color: #4D4D4D;
+    font-size: 40px;
+}
