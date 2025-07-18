@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .output{
+            width: 100px;
+            height: 100px;
+            border: 1px black solid;
+        }
+    </style>
+</head>
+<body>
+    <div><h1>Unit Calculator</h1></div>
+    <div>
+        <input type="number" id="input">
+        <select name="Unit" id="from-unit">
+            <option value="kilometer">KM</option>
+            <option value="miles">Miles</option>
+            <option value="meter">Mtr</option>
+        </select>
+        </div>
+        <div id="to">
+            <p>TO</p>
+        <select name="unit" id="to-unit">
+            <option value="kilometer">KM</option>
+            <option value="miles">Miles</option>
+            <option value="meter">Mtr</option>
+        </select>
+        </div>
+            <button id="convert">convert</button>
+        <div class="output">
+            <p id="output"></p>
+        </div>
+
+        <script src="unit-calculator.js"></script>
+</body>
+</html>
